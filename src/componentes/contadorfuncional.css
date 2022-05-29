@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ 
+body {
+    font-size: 16px;
+    font-family: 'Caveat', cursive;
+    background-color: #000;
+}
+ 
+#root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+ 
+.contenedor {
+    width: 40%;
+    border: 8px solid #fff;
+    height: 500px;
+    max-width: 500px;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 35%;
+    box-shadow: 0 0 50px rgba(0,0,0,.1);
+    background-color: #003;
+}
+
+.contenedor-informacion {
+    margin: -20px 30px;
+}
+
+.contenedor-informacion h2 {
+    font-size: 90px;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.contenedor-informacion .cuenta {
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 5px solid #000;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    color:rgb(255, 179, 0)
+}
+
+.contenedor-informacion .contenedor-cuenta {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.contenedor-informacion .cuenta:hover{
+    background-color: rgb(18, 18, 43);
+
+}
+
+
+
+.contenedor-informacion .botones {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-informacion .botones .boton1 {
+    height: auto;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgb(0, 255, 38);
+    color: #000;
+    font-family: 'Caveat', cursive;
+    font-size: 72px;
+    border: 3px solid #fff;
+    box-shadow: 0 0 50px rgba(0,0,0,.1);
+}
+
+.contenedor-informacion .botones .boton1:hover {
+    background-color: rgb(55, 248, 84);
+    font-weight: 700px;
+    font-size: 75px;
+
+
+
+}
+
+.contenedor-informacion .botones .boton2 {
+    height: 100px;
+    border-radius: 50%;
+    width: 100px;
+    background-color: rgb(248, 6, 6);
+    color: #000;
+    font-family: 'Caveat', cursive;
+    font-size: 72px;
+    border: 4px solid #000;
+    box-shadow: 0 0 50px rgba(0,0,0,.1);
+}
+
+.contenedor-informacion .botones .boton2:hover {
+    background-color: rgb(237, 99, 99);
+    color: #000;
+    font-weight: 700;
+    font-size: 75px;
+
+
+}
